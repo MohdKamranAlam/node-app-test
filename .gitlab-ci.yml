@@ -45,5 +45,5 @@ deploy:
     - local_docker
   script:
     - docker pull $CONTAINER_RELEASE_IMAGE
-    - docker run -d -p 3000:3000 $CONTAINER_RELEASE_IMAGE
+    - docker run -d -p 8085:8085 $CONTAINER_RELEASE_IMAGE
   
